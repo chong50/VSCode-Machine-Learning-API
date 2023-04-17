@@ -12,7 +12,7 @@ app = FastAPI()
 async def scoring_endpoint():
     try:
         # Read data from Excel file
-        df = pd.read_excel("sungenMLmodels.xlsx")
+        df = pd.read_excel("GenerationForecasts.xlsx")
         # Convert float values to string representations
         df = df.astype(str)
         # Convert DataFrame to list of dictionaries
