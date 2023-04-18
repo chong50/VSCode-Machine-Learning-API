@@ -4,6 +4,13 @@ This is the subsystem of Data Analysis. Basic operations such as Time-Series Ana
 
 ### Established 4/13/2023
 
+# Development 
+## GenerationForecast.mlx
+### Decision Making
+
+## Project.py
+### Objective 
+
 
 ## Activity Log
 
