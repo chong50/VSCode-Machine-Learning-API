@@ -7,13 +7,13 @@ This is the subsystem of Data Analysis. Basic operations such as Time-Series Ana
 
 ## Activity Log
 
-4/17/2023
+#### 4/17/2023
 
 1. Pushed the Completed Progress about work and effort on development of URL parameters and establishment of function to take in inputs e.g. start data and end date; to output datas and available resources between those indicated dates. 
 2. The URL is available below. The instruction page will be featured below on instructions on how to use the URL and access the functions.
 3. The URL completion is ready. 
 
-4/18/2023
+#### 4/18/2023
 
 1. Researched on module that handles CORS-related functionality to disable CORS on API URL environment.
 2. Added CORS headers to the URL response. Disabled cross-origin request function to welcome Application Development subsystem owner into local development environment for the URL and allow persons to access the resources for his/her own development. 
