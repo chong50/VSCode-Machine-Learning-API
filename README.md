@@ -9,7 +9,7 @@ This is the subsystem of Data Analysis. Basic operations such as Time-Series Ana
 ## ConsumptionForecast.mlx | Time-Series Forecasting
 ### Decision Making
 
-## GenerationForecast.mlx | Machine Learning || Deep Learning
+## GenerationForecast.mlx | Machine Learning | Deep Learning
 ### Decision Making
 
 ## Project.py
