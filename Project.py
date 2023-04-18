@@ -3,10 +3,18 @@ import uvicorn
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 from fastapi.responses import FileResponse
+from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=['*'],  # Replace with the appropriate origins for your use case
+    allow_methods=['*'],  # Replace with the appropriate HTTP methods for your use case
+    allow_headers=['*'],  # Replace with the appropriate headers for your use case
+)
 
 @app.get('/predicted/{start_date}/{end_date}')
 
