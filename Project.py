@@ -16,7 +16,7 @@ app.add_middleware(
     allow_headers=['*'],  # Replace with the appropriate headers for your use case
 )
 
-@app.get('/predicted/{start_date}/{end_date}')
+@app.get('/genpred/{start_date}/{end_date}')
 
 async def get_predicted(start_date: str, end_date: str):
 
@@ -51,7 +51,7 @@ async def get_predicted(start_date: str, end_date: str):
         return JSONResponse(content={"error": str(e)})
 
 
-@app.get('/{start_date}/{end_date}')
+@app.get('/generation/{start_date}/{end_date}')
 
 async def scoring_endpoint(start_date: str, end_date: str):
 
@@ -88,7 +88,7 @@ async def scoring_endpoint(start_date: str, end_date: str):
         return JSONResponse(content={"error": str(e)})
     
 
-@app.get('/predicted/consumption/{start_date}/{end_date}')
+@app.get('/conpred/{start_date}/{end_date}')
 
 async def get_predicted(start_date: str, end_date: str):
 
