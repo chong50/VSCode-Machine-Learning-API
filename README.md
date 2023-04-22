@@ -14,7 +14,7 @@ This is the subsystem of Data Analysis. Basic operations such as Time-Series Ana
 
 Fast API Endpoint for Data Retrieval
 ## Project.py 
-#### Pseudocode
+### Pseudocode
 1. Import required modules and packages:
     - os
     - uvicorn
