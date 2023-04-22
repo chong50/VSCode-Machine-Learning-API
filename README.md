@@ -155,3 +155,15 @@ Heroku is a cloud platform that allows users to deploy and run their application
 1. Researched on module that handles CORS-related functionality to disable CORS on API URL environment.
 2. Added CORS headers to the URL response. Disabled cross-origin request function to welcome Application Development subsystem owner into local development environment for the URL and allow persons to access the resources for his/her own development. 
 3. Implementing ARIMA Autocorrelation, Integration, Moving Average application involving resources and built-in functions on MATLAB for Time-Series Forecasting Purposes. 
+
+## Acknowledgement
+
+I would like to express my deepest gratitude to Prof. Junjie Qin for his invaluable guidance and support throughout my project on power consumption and generation metadata forecasting. His expertise and experience in the field of forecasting methods were instrumental in helping me navigate through the complexities of this project.
+
+Prof. Qin's advice and recommendations on tools such as the ARIMA forecasting model were extremely helpful in developing an effective forecasting solution. His clear and concise explanation of how to use the ARIMA model and how to package the data to put into it were crucial in helping me understand the key concepts and techniques needed to create accurate forecasts.
+
+Prof. Qin's contributions to my knowledge of how to forecast power consumption and generation metadata proactively were invaluable. He provided valuable insights into the best practices for handling and analyzing large datasets, and helped me identify the most relevant variables to include in my forecasting models. His deep understanding of the field of forecasting and his ability to explain complex concepts in a clear and concise manner were truly impressive.
+
+I cannot express enough how grateful I am to have had Prof. Qin as my advisor and consultant throughout this project. His guidance and support have been invaluable to me, and I would not have been able to complete this project without his help. I have learned so much from him, and I will carry these lessons with me throughout my career.
+
+Once again, I would like to extend my sincerest thanks to Prof. Qin for his invaluable contributions to my project, and for his unwavering support throughout this journey. I am truly grateful for everything he has done for me, and I will always be indebted to him for his guidance and mentorship.
