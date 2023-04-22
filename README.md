@@ -156,6 +156,15 @@ Heroku is a cloud platform that allows users to deploy and run their application
 2. Added CORS headers to the URL response. Disabled cross-origin request function to welcome Application Development subsystem owner into local development environment for the URL and allow persons to access the resources for his/her own development. 
 3. Implementing ARIMA Autocorrelation, Integration, Moving Average application involving resources and built-in functions on MATLAB for Time-Series Forecasting Purposes. 
 
+#### 4/19/2023
+Continued working on the ARIMA application on MATLAB. Completed the process of packaging the metadata into the ARIMA model and running the forecasting algorithm. Results seem promising, with a relatively low error rate compared to the actual data. Will continue tweaking the model to improve its accuracy and precision.
+
+#### 4/21/2023
+Integrated the ARIMA forecasting model into the URL parameters function developed earlier. The function now includes an option to perform ARIMA forecasting on the data between the input dates. Tested the function with different input parameters and it seems to be working well.
+
+#### 4/22/2023
+Refactored the codebase for the URL parameters and ARIMA functions to improve its readability and maintainability. Documented the codebase using inline comments and created a user manual to guide users on how to use the URL parameters function and the ARIMA forecasting feature. Uploaded the user manual to the URL for easy access.
+
 ## Acknowledgement
 
 I would like to express my deepest gratitude to Prof. Junjie Qin for his invaluable guidance and support throughout my project on power consumption and generation metadata forecasting. His expertise and experience in the field of forecasting methods were instrumental in helping me navigate through the complexities of this project.
