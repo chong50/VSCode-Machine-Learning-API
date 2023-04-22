@@ -12,8 +12,48 @@ This is the subsystem of Data Analysis. Basic operations such as Time-Series Ana
 ## GenerationForecast.mlx | Machine Learning | Deep Learning
 ### Decision Making
 
-## Project.py
-### Objective 
+Fast API Endpoint for Data Retrieval
+## Project.py 
+#### Pseudocode
+1. Import required modules and packages:
+    - os
+    - uvicorn
+    - FastAPI
+    - JSONResponse
+    - FileResponse
+    - CORSMiddleware
+    - pandas
+
+2. Create an instance of the FastAPI application.
+
+3. Use the app object to add CORS middleware to allow cross-origin resource sharing.
+
+4. Define two endpoints using the app object:
+    - An endpoint with the path `/predicted/{start_date}/{end_date}` that accepts two parameters, `start_date` and `end_date`.
+    - An endpoint with the path `/{start_date}/{end_date}` that accepts two parameters, `start_date` and `end_date`.
+
+5. Inside the `get_predicted` function:
+    - Read data from an Excel file using the pandas `read_excel` method.
+    - Convert float values to string representations.
+    - Convert the `start_date` and `end_date` parameters to datetime format using the pandas `to_datetime` method.
+    - Filter the DataFrame to include only rows that have a `Future Time` value between the `start_date` and `end_date`.
+    - Convert the `Future Time` column to a string representation.
+    - Convert the DataFrame to a list of dictionaries.
+    - Return a JSON response with the data.
+
+6. Inside the `scoring_endpoint` function:
+    - Read data from an Excel file using the pandas `read_excel` method.
+    - Convert float values to string representations.
+    - Convert the `start_date` and `end_date` parameters to datetime format using the pandas `to_datetime` method.
+    - Filter the DataFrame to include only rows that have a `Time` value between the `start_date` and `end_date`.
+    - Convert the `Time` column to a string representation.
+    - Convert the DataFrame to a list of dictionaries.
+    - Return a JSON response with the data.
+
+7. Start the application using the `uvicorn.run` method with the following parameters:
+    - The app object
+    - The host IP address as a string (`'127.0.0.1'`)
+    - The port number as an integer (`8000`)
 
 
 ## Activity Log
