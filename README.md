@@ -6,9 +6,9 @@ This is the subsystem of Data Analysis. Basic operations such as Time-Series Ana
 
 # Development 
 
-### - Creation of Generation Forecast
-### - Creation of Consumption Forecast
-### - API Endpoint Development for User Interface and Data Retrieval 
+- Creation of Generation Forecast
+- Creation of Consumption Forecast
+- API Endpoint Development for User Interface and Data Retrieval 
 
 ## ConsumptionForecast.mlx | Time-Series Forecasting
 ### Decision Making
