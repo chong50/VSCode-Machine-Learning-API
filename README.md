@@ -12,8 +12,9 @@ This is the subsystem of Data Analysis. Basic operations such as Time-Series Ana
 ## GenerationForecast.mlx | Machine Learning | Deep Learning
 ### Decision Making
 
-Fast API Endpoint for Data Retrieval
-## Project.py 
+
+# Project.py 
+## Fast API Endpoint for Data Retrieval
 ### Pseudocode
 1. Import required modules and packages:
     - os
