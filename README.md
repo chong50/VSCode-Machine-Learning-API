@@ -11,10 +11,10 @@ This is the subsystem of Data Analysis. Basic operations such as Time-Series Ana
 - API Endpoint Development for User Interface and Data Retrieval 
 
 ## ConsumptionForecast.mlx | Time-Series Forecasting
-### Decision Making
+### Pseudocode
 
 ## GenerationForecast.mlx | Machine Learning | Deep Learning
-### Decision Making
+### Pseudocode
 
 
 
