@@ -106,13 +106,13 @@ async def get_predicted(start_date: str, end_date: str):
         end_date = pd.to_datetime(
             end_date, format="%Y-%m-%d-%H:%M")
         
-        df2['Time'] = pd.to_datetime(df2['Time'])
+        df2['Future Time'] = pd.to_datetime(df2['Future Time'])
 
         # filter by start and end date
-        df = df2[df2['Time'] >= start_date]
-        df = df[df['Time'] <= end_date]
+        df = df2[df2['Future Time'] >= start_date]
+        df = df[df['Future Time'] <= end_date]
 
-        df["Time"] = df["Time"].dt.strftime("%Y-%m-%d %H:%M")
+        df["Future Time"] = df["Future Time"].dt.strftime("%Y-%m-%d %H:%M")
         
         # Convert DataFrame to list of dictionaries
         data = df.to_dict(orient='records')
