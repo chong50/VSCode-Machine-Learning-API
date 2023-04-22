@@ -10,8 +10,8 @@ This is the subsystem of Data Analysis. Basic operations such as Time-Series Ana
 - Creation of Consumption Forecast
 - API Endpoint Development for User Interface and Data Retrieval 
 
-## ConsumptionForecast.mlx | Time-Series Forecasting
-### Description
+## ConsumptionForecast.mlx
+### Time-Series Forecasting
 
 This code is for performance of time series forecasting of energy consumption data using ARIMA model in MATLAB. The dataset contains energy consumption data for 1097 days with 24-hour readings. The code imports the dataset and configures it for analysis by computing the average load per hour. Then, the code splits the data into training and testing sets using cvpartition. For each hour of the day, the code fits an ARIMA model to the training data, generates forecasts for the test set, and adds the average load per hour back to calculate the forecasted consumption. The code visualizes the 24-hour forecasted consumption compared with the actual data. Finally, the code exports the forecast data onto a server in an Excel format.
 
@@ -37,8 +37,8 @@ This code is for performance of time series forecasting of energy consumption da
  
 10. Export the forecast onto the server in the format .xlsx.
 
-## GenerationForecast.mlx | Machine Learning | Deep Learning
-### Description
+## GenerationForecast.mlx
+### Machine Learning | Deep Learning
 
 This code is for solar forecasting for power generation, and it aims to predict the solar power generation based on environmental parameters such as irradiation and temperature. The code first imports the metadata from a CSV file and visualizes the data using plots. Then it performs correlation and trend analysis, followed by linear and polynomial regression modeling with different degrees of freedom. The effect of advancing to a higher order of polynomial and feature normalization are also explored. Finally, the dataset is split into training and validation sets, and the quadratic model is retrained on this split dataset. The code also iterates on different training and test splits to evaluate the model's performance.
 
