@@ -116,6 +116,10 @@ This code is for solar forecasting for power generation, and it aims to predict 
     - The host IP address as a string (`'127.0.0.1'`)
     - The port number as an integer (`8000`)
 
+## HEROKU
+
+Heroku is a cloud platform that allows users to deploy and run their applications, including web applications, on the cloud. The fastapi endpoint for data retrieval is a web application built using the FastAPI framework, which is a modern, fast, web framework for building APIs leveraging Python language. This endpoint is hosted on Heroku, meaning that it is deployed on Heroku's cloud platform, and it can be accessed by users over the internet through a specific URL. Users can send requests to the FastAPI endpoint to retrieve data, and the endpoint will return the requested data in a JSON format. The deployment on Heroku allows for scalability and reliability of the application, as Heroku takes care of the infrastructure and provides automatic scaling and monitoring of the application.
+
 
 ## Activity Log
 
