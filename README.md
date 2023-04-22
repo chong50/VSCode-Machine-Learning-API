@@ -116,27 +116,27 @@ This code is for solar forecasting for power generation, and it aims to predict 
     - The host IP address as a string (`'127.0.0.1'`)
     - The port number as an integer (`8000`)
 
-## Heroku
-
-Heroku is a cloud platform that allows users to deploy and run their applications, including web applications, on the cloud. The fastapi endpoint for data retrieval is a web application built using the FastAPI framework, which is a modern, fast, web framework for building APIs leveraging Python language. This endpoint is hosted on Heroku, meaning that it is deployed on Heroku's cloud platform, and it can be accessed by users over the internet through a specific URL. Users can send requests to the FastAPI endpoint to retrieve data, and the endpoint will return the requested data in a JSON format. 
+## Heroku 
 
 Base URL: https://mlmodelingforecast.herokuapp.com/
 
 Measured Generation: (Available dates between 2020-5-15 00:00 and 2020-5-26 00:00)
 
-/generation/2020-5-15-00:00/2020-5-16-00:00
+https://mlmodelingforecast.herokuapp.com/generation/2020-5-15-00:00/2020-5-16-00:00
 
 Predicted Generation: (Available dates between 2020-5-26 00:15 and 2020-5-31 04:00)
 
-/genpred/2020-5-26-00:15/2020-5-31-04:00
+https://mlmodelingforecast.herokuapp.com/genpred/2020-5-26-00:15/2020-5-31-04:00
 
 Measured Consumption: (Available dates between 2018-01-11-00:00 and 2021-03-27-23:00)
 
-/consumption/2018-01-11-00:00/2021-03-27-23:00
+https://mlmodelingforecast.herokuapp.com/consumption/2018-01-11-00:00/2021-03-27-23:00
 
 Predicted Consumption: (Available dates between 2021-03-28-00:00 and 2021-11-01-23:00)
 
-/conpred/2021-03-28-00:00/2021-11-01-23:00
+https://mlmodelingforecast.herokuapp.com/conpred/2021-03-28-00:00/2021-11-01-23:00
+
+Heroku is a cloud platform that allows users to deploy and run their applications, including web applications, on the cloud. The fastapi endpoint for data retrieval is a web application built using the FastAPI framework, which is a modern, fast, web framework for building APIs leveraging Python language. This endpoint is hosted on Heroku, meaning that it is deployed on Heroku's cloud platform, and it can be accessed by users over the internet through a specific URL. Users can send requests to the FastAPI endpoint to retrieve data, and the endpoint will return the requested data in a JSON format.
 
 
 
