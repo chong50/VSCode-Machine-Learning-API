@@ -15,8 +15,6 @@ This is the subsystem of Data Analysis. Basic operations such as Time-Series Ana
 
 ## GenerationForecast.mlx | Machine Learning | Deep Learning
 
-This code is for solar forecasting for power generation, and it aims to predict the solar power generation based on environmental parameters such as irradiation and temperature. The code first imports the metadata from a CSV file and visualizes the data using plots. Then it performs correlation and trend analysis, followed by linear and polynomial regression modeling with different degrees of freedom. The effect of advancing to a higher order of polynomial and feature normalization are also explored. Finally, the dataset is split into training and validation sets, and the quadratic model is retrained on this split dataset. The code also iterates on different training and test splits to evaluate the model's performance.
-
 ### Pseudocode
 
 1. Import metadata (sensor data) from a CSV file
