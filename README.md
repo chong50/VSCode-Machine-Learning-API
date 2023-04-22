@@ -13,6 +13,17 @@ This is the subsystem of Data Analysis. Basic operations such as Time-Series Ana
 ## ConsumptionForecast.mlx | Time-Series Forecasting
 ### Pseudocode
 
+1. Import the consumption data and time data
+2. Configure the data for the load and time before entering into the model
+3. Compute the average load per hour for the given days
+4. Split the data into training and testing sets using cvpartition
+5. Fit an ARIMA model to the training data for each hour of the day
+6. Generate forecasts for the test set for each hour of the day
+7. Add the average load per hour back to the equation to calculate the forecasted l(t)
+8. Visualize the 24-hour forecasted consumption compared with actual data
+9. Configure the output data format compatible for export
+10. Export the forecast onto the server in the format .xlsx.
+
 ## GenerationForecast.mlx | Machine Learning | Deep Learning
 
 ### Pseudocode
