@@ -157,13 +157,19 @@ Heroku is a cloud platform that allows users to deploy and run their application
 3. Implementing ARIMA Autocorrelation, Integration, Moving Average application involving resources and built-in functions on MATLAB for Time-Series Forecasting Purposes. 
 
 #### 4/19/2023
-Continued working on the ARIMA application on MATLAB. Completed the process of packaging the metadata into the ARIMA model and running the forecasting algorithm. Results seem promising, with a relatively low error rate compared to the actual data. Will continue tweaking the model to improve its accuracy and precision.
+1. Continued working on the ARIMA application on MATLAB. 
+2. Completed the process of packaging the metadata into the ARIMA model and running the forecasting algorithm. Results seem promising, with a relatively low error rate compared to the actual data. 
+3. Continued tweaking the model to improve its accuracy and precision.
 
 #### 4/21/2023
-Integrated the ARIMA forecasting model into the URL parameters function developed earlier. The function now includes an option to perform ARIMA forecasting on the data between the input dates. Tested the function with different input parameters and it seems to be working well.
+1. Integrated the ARIMA forecasting model into the URL parameters function developed earlier. 
+2. The function now includes an option to perform ARIMA forecasting on the data between the input dates. 
+3. Tested the function with different input parameters and it seems to be working well.
 
 #### 4/22/2023
-Refactored the codebase for the URL parameters and ARIMA functions to improve its readability and maintainability. Documented the codebase using inline comments and created a user manual to guide users on how to use the URL parameters function and the ARIMA forecasting feature. Uploaded the user manual to the URL for easy access.
+1. Refactored the codebase for the URL parameters and ARIMA functions to improve its readability and maintainability. 
+2. Documented the codebase using inline comments and created a user manual to guide users on how to use the URL parameters function. 
+3. Uploaded the user manual to GITHUB for easy access.
 
 ## Acknowledgement
 
